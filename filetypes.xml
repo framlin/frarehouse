@@ -5,6 +5,7 @@
       <mapping pattern="server" type="PLAIN_TEXT" />
       <mapping pattern=".metadata_never_index" type="PLAIN_TEXT" />
       <mapping pattern="servo-move" type="Python" />
+      <mapping pattern="47-HackRF" type="XHTML" />
       <mapping pattern="48-Voltcraft_MT_52" type="XHTML" />
       <mapping pattern="49-uCurrent" type="XHTML" />
       <removed_mapping pattern="._adafruit_lsm303.mpy" approved="true" type="Python" />
