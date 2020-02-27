@@ -1,4 +1,4 @@
 #!/bin/bash
-FILE=$(basnema $1)
-cp $1 ~/tmp/$FILE.html
-/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome ~/tmp/$FILE.html
+#FILE=$(basename $1)
+#cp $1 ~/tmp/$FILE.html
+/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome $1

@@ -1,0 +1,5 @@
+#!/bin/bash
+#FILE=$(basename $1)
+#cp $1 ~/tmp/$FILE.html
+#echo '<h1>hello</h1>' |bin/show "data:text/html;base64,$(python -mbase64 <&0)"
+echo $1 |/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome "data:text/html;base64,$(python -mbase64 <&0)"
