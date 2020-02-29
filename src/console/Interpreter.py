@@ -19,6 +19,8 @@ class Cmd:
             self.quitConsole = True
         elif cmd == Token.PUT:
             self.fundus.execute_put()
+        elif cmd == Token.TAKE:
+            self.fundus.execute_Take()
         elif cmd == Token.CREATE_CONTAINER:
             self.fundus.execute_create_container()
         elif cmd == Token.CREATE_ITEM:

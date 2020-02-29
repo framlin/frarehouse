@@ -9,6 +9,7 @@ class Fundus:
     dataPath = "../../data"
     binPath = "../../bin"
     tmpPath = "../../data/tmp"
+    basketPath = "../../data/basket"
 
     def execute_put(self):
         item = input("Item: ")
@@ -18,6 +19,13 @@ class Fundus:
         containerPath = self.find(container)
         shutil.move(itemPath, containerPath)
         print(os.listdir(containerPath))
+
+    def execute_take(self):
+        item = input("Item: ")
+        print("take Item " + item)
+        itemPath = self.find(item)
+        shutil.move(itemPath, self.basketPath)
+        print(os.listdir(self.basketPat))
 
     def execute_create_container(self):
         print("CREATE_CONTAINER")
