@@ -1,3 +1,4 @@
 src/console/.idea/*
 src/console/__pycache__/*
 data/*
+.idea/*
