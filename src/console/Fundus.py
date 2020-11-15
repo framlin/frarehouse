@@ -25,7 +25,7 @@ class Fundus:
         print("take Item " + item)
         itemPath = self.find(item)
         shutil.move(itemPath, self.basketPath)
-        print(os.listdir(self.basketPat))
+        print(os.listdir(self.basketPath))
 
     def execute_create_container(self):
         print("CREATE_CONTAINER")
