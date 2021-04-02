@@ -1,0 +1,9 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="15750637-2240-44d3-80e1-cc0dd6de7f04" name="pi@europa.local:22" url="http:///">
+        <fileTransfer accessType="SFTP" host="europa.local" port="22" sshConfigId="dd3a9b65-f3bc-4533-862c-0b038641198e" sshConfig="pi@europa.local:22 password" />
+      </webServer>
+    </option>
+  </component>
+</application>
