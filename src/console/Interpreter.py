@@ -20,7 +20,7 @@ class Cmd:
         elif cmd == Token.PUT:
             self.fundus.execute_put()
         elif cmd == Token.TAKE:
-            self.fundus.execute_Take()
+            self.fundus.execute_take()
         elif cmd == Token.CREATE_CONTAINER:
             self.fundus.execute_create_container()
         elif cmd == Token.CREATE_ITEM:

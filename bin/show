@@ -1,4 +1,4 @@
 #!/bin/bash
 #FILE=$(basename $1)
 #cp $1 ~/tmp/$FILE.html
-/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome $1
+chromium-browser $1 2>/dev/null&
