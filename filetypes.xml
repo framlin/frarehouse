@@ -8,8 +8,8 @@
       <mapping pattern="45-Feinstaub_Gehaeuse" type="XHTML" />
       <mapping pattern="42-Featherwing_LORA" type="XHTML" />
       <mapping pattern="49-uCurrent" type="XHTML" />
-      <mapping pattern="44-Raspi_Zero" type="XHTML" />
       <mapping pattern="48-Voltcraft_MT_52" type="XHTML" />
+      <mapping pattern="44-Raspi_Zero" type="XHTML" />
       <mapping pattern="47-HackRF" type="XHTML" />
       <mapping pattern="43-Featherwing_LORA" type="XHTML" />
       <mapping pattern="46-Feinstaub_Sensor" type="XHTML" />
