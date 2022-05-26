@@ -1,0 +1,7 @@
+<application>
+  <component name="GithubAccounts">
+    <account name="framlin" id="21fe4262-fb5a-4e17-8a12-a29dede7d430">
+      <server host="github.com" />
+    </account>
+  </component>
+</application>
